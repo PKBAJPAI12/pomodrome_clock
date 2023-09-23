@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="split">
+          <div id="countdown">
+        <h1 id="minute"></h1>
+        <h1>:</h1>
+        <h1 id="second"></h1>
+        
+          </div>
+        </div>
+        <div class="split">
+            <div>
+                <h1 style="text-align:center; color: white;" id="operation">Session 1</h1>
+            </div>
+            <hr style="border-style:dotted; color: white;">
+            <div style="display:flex; justify-content: space-evenly; margin-top:15px; margin-bottom:15px">
+               <div>
+                <h6>Session Time</h6>
+                <h4><span id="sessiontime">15</span> min</h4>
+                <div style="display:flex">
+                    <button style="width:50%" id="sessionplus">+</button>
+                    <button style="width:50%" id="sessionminus">-</button>
+
+                </div>
+               </div>
+               <div>
+                <h6>Break Time</h6>
+                <h4><span id="breaktime">0</span> min</h4>
+                <div style="display:flex">
+                    <button style="width:50%" id="breakplus">+</button>
+                    <button style="width:50%" id="breakminus">-</button>
+
+                </div>
+               </div>
+            </div>
+            <hr style="border-style:dotted; color: white;">
+            <div style="display:flex; margin-top:25px">
+                <button style="width:50%" id="control">Start</button>
+                <button style="width:50%" id="reset">Reset</button>
+
+            </div>
+            
+        </div>
+        </div>
+          </body>
+          <script src="script.js"></script>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      background:linear-gradient(#E9C189,transparent)
+  }
+  .container{
+      height:460px;
+    width: 220px;
+    margin:50px auto;
+  border:1px solid black;
+  background:linear-gradient(#493E33,#493D32)
+  
+  }
+  .split{
+    height: 50%;
+  }
+  #countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    width:80%;
+    height: 80%;
+    margin:15px auto;
+  }
